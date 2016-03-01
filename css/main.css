@@ -1,0 +1,275 @@
+.pd-0-2{
+  padding-left: 2% ;
+  padding-right: 2% ;
+  border-bottom: 0px solid #518ACC) ;
+}
+#menu.active {
+	background-color: rgba(0, 53, 111, 0.75);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.banner {
+	background: url(../image/large.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.opacity{
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+    height: 100vh;
+    background-size: cover;
+} 
+.text-banner {
+	color: white;
+    padding: 0px 15%;
+    text-align: center;
+}
+.text-banner h1{
+	font-size: 50px;
+}
+
+.prueba-gratis {
+	background-color:rgba(82,141,210,0.8);
+	z-index: 1;
+	width: 100%;
+	padding: 2%;
+	bottom:0;
+	color: white;
+}
+.btn-primary{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 230px;
+    font-size: 27px;
+    margin: 4% 0;
+}
+.sub-titulo{
+	color: #68ADFF;
+    font-size: 3em;
+    font-weight: 200;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.icon-servicio {
+	font-size: 3em;
+	text-align: center;
+	color: #5EA7FF;
+	margin: 0 auto;
+	height: 130px;
+	width: 130px;
+	background: white;
+	border-radius: 50%;
+	box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.16);
+}
+.cont-servicio {
+	margin: 3% 0;
+}
+.cont-servicio p{
+	text-align: center;
+	color: rgb(105, 135, 164);
+	font-size: 1.7em;
+	margin: 10% 0;
+}
+.cont-servicio span{
+	text-align: center;
+	display: block;
+	font-weight: bold;
+}
+.line {
+	border-bottom: 1px #5EA7FF	solid;
+}
+.flecha{
+	position: absolute;
+    display: block;
+    text-align: center;
+    width: 90%;
+}
+.flecha-w {
+	width: 100%;
+}
+#como-funciona .sub-titulo img {
+	width: 50%;
+}
+.sub-titulo-black {
+	color: black;
+    font-size: 2em;
+    font-weight: 200;
+}
+.img-como {
+	background-image: url(../image/sec-2.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 450px;
+}
+.opacity-2 {
+	height: 450px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+
+.icon {
+	font-size: 2rem;
+	text-align: center;
+	background: #5EA7FF;
+	color: white;
+	width: 50px;
+	height:50px;
+	border-radius: 50%;
+	margin: 150% 0;
+}
+.icon-como{
+	position: absolute;
+    left: 92%;
+}
+#porque img.logo-porque {
+	width: 70%;
+}
+.img-porque img{
+    width: 100%;
+    height: 400px;
+}
+.img-porque {
+	background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 400px;
+}
+footer {
+	background: #2A3541;
+	color: white;
+	padding: 3%;
+}
+footer .icon{
+	color: #5EA7FF;
+    background: transparent;
+    font-size: 4rem;
+    margin: 3%;
+}
+footer .icon:hover{
+	background: white;}
+footer .copy {
+	margin-top: 2%;
+}
+
+/*Contacto*/
+.cont-banner {
+	padding: 0 2%;
+	background: white;
+    width: 50%;
+    min-height: 300px;
+    border-top: 5px #5EA7FF solid;
+    border-radius: 5px;
+}
+.formulario {
+	margin: 0 auto;
+}
+.cont-como h4 {
+	color: #5EA7FF;
+}
+form {
+	padding-right: 15%;
+	padding-left: 5%;
+	font-family: sans-serif;
+}
+.formulario {
+	font-family: serif;
+}
+input, textarea {
+	width: 70%
+}
+fieldset {
+	margin: 10px 0;
+}
+form button {
+	display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 2px #2983F1 solid;
+    background: #5EA7FF;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+form button:hover {
+	background: #2983F1 ;
+}
+label span {
+	color: red;
+} 
+.cont-banner p {
+	display: inline-block;
+	font-size: 12px;
+	color: black;
+	margin: 10px 0;
+}
+.cont-banner a {
+	font-size: 10px;
+	color: black;
+	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .text-banner{
+    margin-top: -85px;
+  }
+  .text-banner h1 {
+    font-size: 35px;
+    padding: 0;
+  }
+  .align-center {
+  	text-align: center;
+  }
+  #como-funciona .flecha {
+	transform: rotate(90deg);
+	margin: 15px 0;
+	    width: 100%;
+  }
+}
+
+/*Utilities*/
+.center-box{
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+.clearfix:after {
+	content: " ";
+	clear:both;
+	display: block;
+}
+.lh-2 {
+	line-height: 2;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+.pd-50-5 {
+	padding:50px 5%;
+}
+.pd-50-0{
+	padding: 50px 0;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.center {
+    display: block;
+    margin: auto;
+}
+.w-100 {
+	width: 100%;
+}
+
+
+
